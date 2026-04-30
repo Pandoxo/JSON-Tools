@@ -1,11 +1,16 @@
 package pl.put.poznan.tools.logic;
 
 import java.util.List;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.core.JsonProcessingException;
 
 public class JsonTools {
 
+    private final ObjectMapper mapper;
+
     public JsonTools() {
-        // Constructor no longer requires a transforms array
+        this.mapper = new ObjectMapper();
     }
 
     public String minify(String json) {
@@ -14,8 +19,13 @@ public class JsonTools {
     }
 
     public String beautify(String json) {
-        // TODO: Implement JSON beautification (indentation) logic
-        return json;
+        try {
+            JsonNode jsonNode = mapper.readTree(json);
+                        return mapper.writerWithDefaultPrettyPrinter().writeValueAsString(jsonNode);
+            
+        } catch (JsonProcessingException e) {
+            return "{\n  \"error\": \"Invalid JSON input format.\"\n}";
+        }
     }
 
     public String filterWhitelist(String json, List<String> keysToKeep) {

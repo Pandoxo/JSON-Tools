@@ -20,7 +20,7 @@ The JSON tools application allows you to perform the following operations:
 ## To run locally:
 ```bash
 git clone https://github.com/Pandoxo/ComputerEngineering/SoftwareEngineeringProject
-cd SoftwareEngineeringProject/backend
+cd SoftwareEngineeringProject
 ./mvnw spring-boot:run
 cd frontend
 npm install

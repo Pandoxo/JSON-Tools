@@ -15,3 +15,15 @@ The JSON tools application allows you to perform the following operations:
 
 ---
 *Developed as part of the Software Architecture course.*
+
+
+## To run locally:
+```bash
+git clone https://github.com/Pandoxo/ComputerEngineering/SoftwareEngineeringProject
+cd SoftwareEngineeringProject/backend
+./mvnw spring-boot:run
+cd frontend
+npm install
+npm run dev
+```
+

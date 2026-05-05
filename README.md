@@ -21,7 +21,7 @@ The JSON tools application allows you to perform the following operations:
 ```bash
 git clone https://github.com/Pandoxo/ComputerEngineering/SoftwareEngineeringProject
 cd SoftwareEngineeringProject
-./mvnw spring-boot:run
+mvn spring-boot:run
 cd frontend
 npm install
 npm run dev

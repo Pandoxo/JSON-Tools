@@ -14,7 +14,7 @@ The JSON tools application allows you to perform the following operations:
 * [Sprint Grading Rules](https://docs.google.com/spreadsheets/d/1EcWb4sr937r_odf31cbxdsNQNDbsQ71L/edit?usp=sharing&ouid=100614361376581630223&rtpof=true&sd=true)
 
 ---
-*Developed as part of the Software Architecture course.*
+*Developed as part of the Software Engineering course.*
 
 
 ## To run locally:

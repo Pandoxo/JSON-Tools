@@ -41,8 +41,7 @@ cd SoftwareEngineeringProject
 ```
 **2. Open the project directory in RStudio.***
 
-**3. Ensure you have the necessary dependencies installed: **
-
+**3. Ensure you have the necessary dependencies installed:**
 ```R
 install.packages(c("rmarkdown", "plotly", "ggplot2"))
 ```

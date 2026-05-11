@@ -39,13 +39,15 @@ Ensure you have the following installed:
 git clone [https://github.com/Pandoxo/ComputerEngineering/SoftwareEngineeringProject](https://github.com/Pandoxo/ComputerEngineering/SoftwareEngineeringProject)
 cd SoftwareEngineeringProject
 ```
-**2. Open the project directory in RStudio.***
-
-**3. Ensure you have the necessary dependencies installed:**
-```R
-install.packages(c("rmarkdown", "plotly", "ggplot2"))
+**2. Start the Backend (Spring Boot):**
+```Bash
+mvn spring-boot:run
 ```
-**4. Open the main .Rmd file and click the Knit button, or run the following command in your console:**
-```R
-rmarkdown::render("your_file_name.Rmd", output_file = "index.html")
+**3. Start the Frontend:**
+Open a new terminal window/tab, navigate to the frontend directory, install dependencies, and run the development server:
+
+```Bash
+cd frontend
+npm install
+npm run dev
 ```

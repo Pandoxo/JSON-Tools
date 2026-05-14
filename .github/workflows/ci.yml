@@ -19,6 +19,7 @@ jobs:
         with:
           java-version: "8"
           distribution: "temurin"
+          cache: "maven" # Opcjonalne: przyspiesza budowanie
 
       - name: Build and package with Maven
         run: mvn clean package -B
@@ -28,3 +29,9 @@ jobs:
         with:
           name: json-tools-jar
           path: target/*.jar
+          
+      - name: Upload Javadoc artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: javadoc-documentation
+          path: target/site/apidocs/

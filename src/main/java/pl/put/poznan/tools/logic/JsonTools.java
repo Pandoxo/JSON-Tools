@@ -5,6 +5,14 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
+/**
+ * Utility class providing standalone operations for processing and analyzing JSON.
+ * <p>
+ * This class includes basic formatting and filtering methods, as well as a 
+ * structural comparison tool (diff) to find additions, removals, 
+ * and changes between two JSON nodes.
+ * </p>
+ */
 public class JsonTools {
 
     private final ObjectMapper mapper;

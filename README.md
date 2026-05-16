@@ -51,3 +51,8 @@ cd frontend
 npm install
 npm run dev
 ```
+**4. Generate documentation:**
+To build the executable .jar file and automatically generate the Javadoc documentation, run the following command in the root directory:
+```Bash
+mvn clean package
+```

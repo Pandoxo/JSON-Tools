@@ -1,10 +1,13 @@
+/home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/app/package-info.java
 /home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/app/JsonToolsApplication.java
+/home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/package-info.java
+/home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/JsonTools.java
+/home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/rest/package-info.java
+/home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/MinifyDecorator.java
+/home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/JsonToolsTransformer.java
 /home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/BeautifyDecorator.java
 /home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/BlacklistFilterDecorator.java
-/home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/JsonTools.java
 /home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/WhitelistFilterDecorator.java
-/home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/MinifyDecorator.java
 /home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/JsonToolsDecorator.java
-/home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/JsonToolsTransformer.java
 /home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/logic/JsonToolsBase.java
 /home/naoi/uni/sem4/software_engineering/SoftwareEngineeringProject/src/main/java/pl/put/poznan/tools/rest/JsonToolsController.java
